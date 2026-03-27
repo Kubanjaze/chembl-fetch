@@ -10,12 +10,12 @@
 
 ## Log
 
-### 2026-03-27 — Plan written, initial push
+### 2026-03-27 11:45 — Plan written, initial push
 - Implementation plan v1.0 written
 - Repo created: Kubanjaze/chembl-fetch
 - Plan commit pushed (implementation.md + phase_log.md + .gitignore)
 
-### 2026-03-27 — Build complete
+### 2026-03-27 11:55 — Build complete
 - Target ID corrected: CHEMBL4630 (Chk1) → CHEMBL2189121 (GTPase KRas)
 - pchembl_value type fix: string → pd.to_numeric coercion
 - 100 records fetched: 51 unique molecules, 9 activity types
