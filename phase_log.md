@@ -10,12 +10,16 @@
 
 ## Log
 
-### 2026-03-27 — Phase complete
-- v1.0 plan pushed to Kubanjaze/chembl-fetch
+### 2026-03-27 — Plan written, initial push
+- Implementation plan v1.0 written
+- Repo created: Kubanjaze/chembl-fetch
+- Plan commit pushed (implementation.md + phase_log.md + .gitignore)
+
+### 2026-03-27 — Build complete
 - Target ID corrected: CHEMBL4630 (Chk1) → CHEMBL2189121 (GTPase KRas)
 - pchembl_value type fix: string → pd.to_numeric coercion
 - 100 records fetched: 51 unique molecules, 9 activity types
 - pChEMBL range 2.70-8.05 (5 orders of magnitude)
 - Key insight: KRAS activity data includes covalent kinetics (Kinact, T1/2) beyond standard IC50/Ki
 - Cost: $0.00 (free public API)
-- Committed and pushed to Kubanjaze/chembl-fetch
+- Implementation.md updated to v1.1, committed and pushed
